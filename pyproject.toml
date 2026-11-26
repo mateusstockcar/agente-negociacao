@@ -1,0 +1,15 @@
+[project]
+name = "agente-negociacao"
+version = "0.1.0"
+description = "Agente conversacional de negociação de dívidas com LangGraph, tool calling, guardrails e evals"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.4",
+    "langchain-google-genai>=2.1",
+    "langfuse>=3.0",
+    "python-dotenv>=1.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
